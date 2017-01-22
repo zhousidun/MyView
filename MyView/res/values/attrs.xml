@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+	<!-- 
+		1.文字颜色；
+		2.文字大小；
+		3.文字内容；
+		4.文字宽度；
+	 -->
+    <declare-styleable name="CompositeTextView">
+        <attr name="rightTextColor" format="color" />
+        <attr name="midTextColor" format="color" />
+        <attr name="leftTextColor" format="color" />
+        <attr name="textColor" format="color" />
+        
+        <attr name="rightTextSize" format="dimension" />
+        <attr name="midTextSize" format="dimension" />
+        <attr name="leftTextSize" format="dimension" />
+        <attr name="textSize" format="dimension" />
+        
+        <attr name="leftTextStr" format="string" />
+        <attr name="midTextStr" format="string" />
+        <attr name="rightTextStr" format="string" />
+        
+        <attr name="rightTextWidth" format="dimension" />
+        <attr name="midTextWidth" format="dimension" />
+        <attr name="leftTextWidth" format="dimension" />
+    </declare-styleable>
+
+</resources>
